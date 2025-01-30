@@ -1,0 +1,51 @@
+body {
+            background-color: #f0f0f0;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+        .video-popup {
+            position: absolute;
+            width: 260px;
+            height: 540px;
+            background-color: #000;
+            border: 2px solid #fff;
+            pointer-events: none;
+        }
+        video {
+            width: 100%;
+            height: 100%;
+            pointer-events: auto;
+        }
+        #startButton {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            z-index: 1000;
+        }
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
